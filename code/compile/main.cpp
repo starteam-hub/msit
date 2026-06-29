@@ -22,10 +22,13 @@ int main(int argc, char* argv[]) {
         clear();
         std::string option;
         std::cout << "MSit\n";
-        std::cout << "1. Sair\n";
+        std::cout << "1. Dar Oi";
+        std::cout << "2. Sair\n";
         std::cout << "Selecione: ";
         std::cin >> option;
         if (option == "1") {
+            std::cout << "Oi!!!!";
+        else if (option == "2") {
             return 0;
         }
         // Option Invalid Alert
